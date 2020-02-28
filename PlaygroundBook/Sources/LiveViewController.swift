@@ -9,9 +9,10 @@
 import UIKit
 import PlaygroundSupport
 
-@objc(Book_Sources_LiveViewController)
+//@objc(Book_Sources_LiveViewController)
 public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
-    /*
+    
+        /*
     public func liveViewMessageConnectionOpened() {
         // Implement this method to be notified when the live view message connection is opened.
         // The connection will be opened when the process running Contents.swift starts running and listening for messages.
@@ -26,9 +27,18 @@ public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHand
     }
     */
 
-    public func receive(_ message: PlaygroundValue) {
+    public func receive(_ externalMessage: PlaygroundValue) {
         // Implement this method to receive messages sent from the process running Contents.swift.
         // This method is *required* by the PlaygroundLiveViewMessageHandler protocol.
         // Use this method to decode any messages sent as PlaygroundValue values and respond accordingly.
+    
+        switch externalMessage{
+            case let .string(message):
+                self.view.backgroundColor = UIColor.red
+                print(message)
+            default:
+                return
+        }
+        
     }
 }
