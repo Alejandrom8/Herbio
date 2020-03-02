@@ -9,7 +9,7 @@ Contains English localizations of values in Manifest.plist files in the playgrou
 "PlaygroundBookName" = "Herbio";
 
 /* The localized name of the first chapter in the playground book. */
-"ChapterOneName" = "Germinate";
+"ChapterOneName" = "How do plants works?";
 
 /* The localized name of the first page in the first chapter in the playground book. */
-"ChapterOnePageOneName" = "How does the plants grow?";
+"ChapterOnePageOneName" = "Plants needs";
