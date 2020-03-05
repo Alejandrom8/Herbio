@@ -16,16 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plant" translatesAutoresizingMaskIntoConstraints="NO" id="qlj-X9-I2t">
-                                <rect key="frame" x="16" y="114" width="342" height="438"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planta_1_2" translatesAutoresizingMaskIntoConstraints="NO" id="qlj-X9-I2t">
+                                <rect key="frame" x="0.0" y="206" width="375" height="461"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-9r-WXQ">
+                                <rect key="frame" x="143" y="49" width="89" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="animar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startAnimation:" destination="fcD-sv-Xiz" eventType="touchDown" id="x8P-At-uN9"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="16" id="G0j-RB-Fd4"/>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="top" secondItem="qaR-nP-dw0" secondAttribute="top" constant="114" id="OuE-1q-QAU"/>
-                            <constraint firstItem="qaR-nP-dw0" firstAttribute="bottom" secondItem="qlj-X9-I2t" secondAttribute="bottom" constant="115" id="h9P-Qz-ol1"/>
-                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="qlj-X9-I2t" secondAttribute="trailing" constant="17" id="rIl-RH-Ykx"/>
+                            <constraint firstItem="qlj-X9-I2t" firstAttribute="top" secondItem="qaR-nP-dw0" secondAttribute="top" constant="206" id="8uB-Zy-tQc"/>
+                            <constraint firstItem="qlj-X9-I2t" firstAttribute="trailing" secondItem="qaR-nP-dw0" secondAttribute="trailing" id="coa-Af-5bS"/>
+                            <constraint firstItem="qlj-X9-I2t" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" id="sit-qD-fps"/>
+                            <constraint firstItem="qlj-X9-I2t" firstAttribute="bottom" secondItem="qaR-nP-dw0" secondAttribute="bottom" id="t8G-3j-ORK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qaR-nP-dw0"/>
                     </view>
@@ -39,6 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plant" width="920" height="1045"/>
+        <image name="planta_1_2" width="1176" height="1447"/>
     </resources>
 </document>
