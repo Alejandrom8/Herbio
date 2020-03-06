@@ -36,4 +36,8 @@ let str = /*#-editable-code str*/"message"/*#-end-editable-code*/
 
 //#-hidden-code
 sendValue(message: str)
+
+//que hacer cuando pasa el nivel.
+//PlaygroundPage.current.assessmentStatus = .pass(message: "### You rock! \nTap on your newly created language `ActionView` to see what happens! When you've done that, lets continue to the [**next page**](@next)")
+//tambien existe .fail(hints: "pistas para el usuario")
 //#-end-hidden-code

@@ -15,41 +15,13 @@
                     <view key="view" contentMode="scaleToFill" id="Rh2-0a-zph">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planta_1_2" translatesAutoresizingMaskIntoConstraints="NO" id="qlj-X9-I2t">
-                                <rect key="frame" x="0.0" y="206" width="375" height="461"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-9r-WXQ">
-                                <rect key="frame" x="143" y="49" width="89" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="animar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="startAnimation:" destination="fcD-sv-Xiz" eventType="touchDown" id="x8P-At-uN9"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="top" secondItem="qaR-nP-dw0" secondAttribute="top" constant="206" id="8uB-Zy-tQc"/>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="trailing" secondItem="qaR-nP-dw0" secondAttribute="trailing" id="coa-Af-5bS"/>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" id="sit-qD-fps"/>
-                            <constraint firstItem="qlj-X9-I2t" firstAttribute="bottom" secondItem="qaR-nP-dw0" secondAttribute="bottom" id="t8G-3j-ORK"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qaR-nP-dw0"/>
                     </view>
-                    <connections>
-                        <outlet property="plant" destination="qlj-X9-I2t" id="m3g-b0-fsb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvi-wC-fap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-247.19999999999999" y="95.802098950524751"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="planta_1_2" width="1176" height="1447"/>
-    </resources>
 </document>
