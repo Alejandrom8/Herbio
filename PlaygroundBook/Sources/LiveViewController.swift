@@ -13,11 +13,6 @@ import SpriteKit
 @objc(Book_Sources_LiveViewController)
 public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
 
-//    public override func viewDidLoad() {
-//        let scene = GameScene(size: view.frame.size)
-//        let skView = view as! SKView
-//        skView.presentScene(scene)
-//    }
     
     public func receive(_ externalMessage: PlaygroundValue) {
         // Implement this method to receive messages sent from the process running Contents.swift.

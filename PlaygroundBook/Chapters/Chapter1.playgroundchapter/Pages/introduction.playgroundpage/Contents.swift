@@ -34,6 +34,10 @@ func sendValue(message: String){
 
 let str = /*#-editable-code str*/"message"/*#-end-editable-code*/
 
+/*:
+ [**Next Page**](@next)
+ */
+
 //#-hidden-code
 sendValue(message: str)
 

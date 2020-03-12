@@ -12,6 +12,7 @@ import PlaygroundSupport
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 public func instantiateLiveView() -> PlaygroundLiveViewable {
+    
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
 
     guard let viewController = storyboard.instantiateInitialViewController() else {

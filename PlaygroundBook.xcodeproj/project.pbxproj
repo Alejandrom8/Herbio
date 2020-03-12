@@ -20,8 +20,7 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
-		7132C9EE2412F5A900C2500D /* PlaygroundBookCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 7132C9ED2412F5A900C2500D /* PlaygroundBookCover.png */; };
-		7132C9F22412FEC000C2500D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7132C9F12412FEC000C2500D /* GameScene.swift */; };
+		711D5B42241AC8990004686A /* PlaygroundBookCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B41241AC8990004686A /* PlaygroundBookCover.png */; };
 		718DD6CE24070FBE00F13284 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718DD6CD24070FBE00F13284 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -116,8 +115,7 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
-		7132C9ED2412F5A900C2500D /* PlaygroundBookCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlaygroundBookCover.png; path = ../../../../../PlaygroundBookCover.png; sourceTree = "<group>"; };
-		7132C9F12412FEC000C2500D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		711D5B41241AC8990004686A /* PlaygroundBookCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaygroundBookCover.png; sourceTree = "<group>"; };
 		718DD6CD24070FBE00F13284 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -249,7 +247,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
-				7132C9ED2412F5A900C2500D /* PlaygroundBookCover.png */,
+				711D5B41241AC8990004686A /* PlaygroundBookCover.png */,
 				718DD6CD24070FBE00F13284 /* Media.xcassets */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
@@ -262,7 +260,6 @@
 			children = (
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
-				7132C9F12412FEC000C2500D /* GameScene.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -381,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
-				7132C9EE2412F5A900C2500D /* PlaygroundBookCover.png in Resources */,
+				711D5B42241AC8990004686A /* PlaygroundBookCover.png in Resources */,
 				718DD6CE24070FBE00F13284 /* Media.xcassets in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 			);
@@ -429,7 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7132C9F22412FEC000C2500D /* GameScene.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 			);
